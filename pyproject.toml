@@ -1,4 +1,14 @@
-[project]
+[tool.poetry]
 name = "adela-webhook"
 version = "0.1.0"
-dependencies = ["flask"]
+description = ""
+authors = ["adelantosdecitas <adelantosdecitasvisa@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "*"
+twilio = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
