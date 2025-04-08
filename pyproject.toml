@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "adela-webhook"
 version = "0.1.0"
-description = ""
+description = "Webhook de ADELA para responder por WhatsApp"
 authors = ["adelantosdecitas <adelantosdecitasvisa@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-flask = "*"
-twilio = "*"
+flask = "^2.3.3"
+twilio = "^8.0.0"
 
 [build-system]
 requires = ["poetry-core"]
