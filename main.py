@@ -18,7 +18,8 @@ def webhook():
 
 @app.route("/", methods=["GET"])
 def home():
-    return "Servidor de ADELA funcionando correctamente 💻"
+    return "Servidor de ADELA funcionando correctamente 🧠"
 
 if __name__ == "__main__":
     app.run()
+
