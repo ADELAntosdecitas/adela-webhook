@@ -3,7 +3,7 @@
 echo "🌸 Iniciando script automático para ADELA..."
 
 # Ruta al proyecto (PERSONALIZA SI CAMBIA)
-PROJECT_PATH="G:/Otros ordenadores/HUAWEI MATEBOOK 2020/MIS DOCUMENTOS 2020/PROYECTOS - FREELOS/ADELA - ADELANTO DE CITAS VISA USA/BOT ADELA/adela-webhook"
+PROJECT_PATH="~/adela-webhook"
 
 # Ir al proyecto
 cd "$PROJECT_PATH" || { echo "❌ No se pudo entrar al proyecto"; exit 1; }
