@@ -3,10 +3,10 @@
 echo "🌸 Iniciando script automático para ADELA..."
 
 # Ruta al proyecto (PERSONALIZA SI CAMBIA)
-PROJECT_PATH="~/adela-webhook"
+RUTA_DEL_PROYECTO="/home/adela/adela-webhook"
 
 # Ir al proyecto
-cd "$PROJECT_PATH" || { echo "❌ No se pudo entrar al proyecto"; exit 1; }
+cd "$RUTA_DEL_PROYECTO" || { echo "❌ No se pudo entrar al proyecto"; exit 1; }
 
 # Verificar si es un repo de git
 if [ ! -d ".git" ]; then
